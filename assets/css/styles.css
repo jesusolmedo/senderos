@@ -73,3 +73,22 @@ input, textarea {
     box-sizing: border-box;
 
 }
+footer{
+    background-color: 	rgb(77, 77, 255);
+    margin:  0;
+    padding: 0;
+    display: flex;
+    justify-content:  space-around;
+
+
+
+
+}
+footer h4{
+    color: white;
+    margin:  0;
+    padding: 0;
+    display:  flex;
+    justify-content: center;
+    
+}

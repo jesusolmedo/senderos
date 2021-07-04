@@ -4,6 +4,7 @@ body{
     background-size:  cover;
     margin: 0;
     padding: 0;
+    background-attachment: fixed;
 }
 .aling{
     display: flex;
@@ -39,7 +40,16 @@ body{
     margin-top: 25px;
     margin-bottom: 0px;
 }
+#cuerpo {
+    margin-top:  5%;
+    margin-bottom: 5%;
+    background-color: #091320a8;
+    color: white;
 
+
+
+
+}
 #cuerpo img{
     width: 100%;
     height: auto;
@@ -47,6 +57,7 @@ body{
     padding:5%;
     display:   flex;
     justify-content: center;
+
 }
 
 
@@ -100,11 +111,22 @@ input, textarea {
     box-sizing: border-box;
 
 }
+footer{
+    background-color: black;
+}
 footer h4 {
     color: white;
     margin:  0;
     padding: 0;
     display:  flex;
     justify-content: center;
-    background-color:#777799;
+
+}
+.sal{
+    background-color: rgb(5 9 13 / 76%);;
+    color: white;
+    margin-bottom: 2%;
+}
+sal col-lg-12{
+    margin-bottom: 2%;
 }

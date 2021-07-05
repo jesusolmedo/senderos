@@ -4,130 +4,128 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/styles.css">
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
 
     <title>MTB</title>
   </head>
-  <body>
-      <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v11.0" nonce="SFneUqp7"></script>
-    <header class="container p-0">
+<body>
+          <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v11.0" nonce="SFneUqp7"></script>
+    <!-- EMPIEZA EL HEADER -->
+        <header class="container p-0">
 
-        <div class="row">
-            <div class="aling">
-                <div class="logo col-2">
-                <img src= "./assets/imgen/logo.jpg" alt="logo">
-                </div>
-                <div class="baner col-10">
-                <img src="./assets/imgen/imagen1.png" alt="">
+            <div class="row">
+                <div class="aling">
+                    <div class="logo col-2">
+                    <img src= "./assets/imgen/logo.jpg" alt="logo">
+                    </div>
+                    <div class="baner col-10">
+                    <img src="./assets/imgen/imagen1.png" alt="">
+                    </div>
                 </div>
             </div>
-        </div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                 <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="h1 nav-item">
-                      <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
-                    </li>
-                    <li class="h1 nav-item">
-                      <a class="nav-link" href="galeria.html">GALERIA</a>
-                    </li>
-                    <li class="h1 nav-item">
-                      <a class="nav-link" href="salidas.html">SALIDAS</a>
-                    </li>
-                    <li class="h1 nav-item">
-                      <a class="nav-link" href="contacto.html">CONTACTO</a>
-                    </li>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light ">
 
+                    <a class="navbar-brand" href="#"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="h1 nav-item active">
+                              <a class="nav-link" href="index.html"<span class="sr-only">INICIO</span></a>
+                            </li>
+                            <li class="h1 nav-item">
+                              <a class="nav-link" href="galeria.html">GALERIA</a>
+                            </li>
+                            <li class="h1 nav-item">
+                              <a class="nav-link" href="salidas.html">SALIDAS</a>
+                            </li>
+                            <li class="h1 nav-item">
+                              <a class="nav-link" href="contacto.html">CONTACTO</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+
+            </nav>
+        </header>
+    <!-- TERMINA EL HEADER -->
+    <!--COMIENZA EL MAIN -->
+        <main id="main"div class="container ">
+            <div class="row">
+
+                <div id="cuerpo" class="cuerpo col-12 border-dark">
+                    <h1 class="">¿QUIENES SOMOS?</h1>
+                    <p class="">
+                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum accusantium praesentium a minima maxime accusamus odit nemo expedita, veritatis, labore optio ducimus maiores quibusdam eveniet nostrum eum aliquid distinctio quasi.</span>
+                    </p>
+                    <img src="assets/imgen/grupo.jpg" alt="foto">
+                </div>
+                <div class="vid col-12"">
+                   <iframe width="560" height="315" src="https://www.youtube.com/embed/QDnjfW9-2cI?start=15" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+                <div id="disqus_thread" class="coment"></div>
+
+                    <script>
+                        var disqus_config = function () {
+                        this.page.url = https//jesusolmedo.github.io/senderos/;  // Replace PAGE_URL with your page's canonical URL variable
+                        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable};
+
+                        (function() { // DON'T EDIT BELOW THIS LINE
+                        var d = document, s = d.createElement('script');
+                        s.src = 'https://https-jesusolmedo-github-io-senderos-salidas-html.disqus.com/embed.js';
+                        s.setAttribute('data-timestamp', +new Date());
+                        (d.head || d.body).appendChild(s);
+                        })();
+                    </script>
+                    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </div>
+        </main>
+    <!-- TERMINA EL MAIN -->
+    <!-- EMPIEZA EL FOOTER -->
+        <footer>
+
+            <section>
+                <h5>Legales</h5>
+                <ul class="textofo listafo">
+                    <li>dnfosdfosnfos</li>
+                    <li>dnfosdfosnfos</li>
+                    <li>dnfosdfosnfos</li>
                 </ul>
-                </div>
-            </div>
-
-        </nav>
-    </header>
-
-
-    <main id="main"div class="container ">
-      <div class="row">
-        <div id="cuerpo" class="cuerpo col-12 border-dark">
-            <h1 class="">¿QUIENES SOMOS?</h1>
-              <p class="">
-                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum accusantium praesentium a minima maxime accusamus odit nemo expedita, veritatis, labore optio ducimus maiores quibusdam eveniet nostrum eum aliquid distinctio quasi.</span>
-              </p>
-            <img src="assets/imgen/grupo.jpg" alt="foto">
-        </div>
-       </div>
-
-    <div class="vid col-12"">
-           <iframe width="560" height="315" src="https://www.youtube.com/embed/QDnjfW9-2cI?start=15" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-
-    <div id="disqus_thread" class="coment"></div>
-
-<script>
-    var disqus_config = function () {
-    this.page.url = https//jesusolmedo.github.io/senderos/;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-
-    (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = 'https://https-jesusolmedo-github-io-senderos-salidas-html.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    </main>
-
-    <footer>
-
-        <section>
-            <h5>Legales</h5>
-            <ul class="textofo listafo">
-                <li>dnfosdfosnfos</li>
-                <li>dnfosdfosnfos</li>
-                <li>dnfosdfosnfos</li>
-            </ul>
-        </section>
-        <section>
-            <h4>Estamos en:</h4>
-            <a href="">
-                <img src="./assets/imgen/faceico.png" alt="rs">
-            </a>
-            <a href="">
-                <img src="./assets/imgen/instaico.png" alt="">
-            </a>
-            <a href="">
-                <img src="./assets/imgen/wspico.png" alt="">
-            </a>
-            <a href="">
-                <img src="./assets/imgen/youico.png" alt="">
-            </a>
-        </section>
-        <section class="textofo">
-            <h4>copyright©2021 </h4>
-        </section>
+            </section>
+            <section>
+                <h4>Estamos en:</h4>
+                <a href="">
+                    <img src="./assets/imgen/faceico.png" alt="rs">
+                </a>
+                <a href="">
+                    <img src="./assets/imgen/instaico.png" alt="">
+                </a>
+                <a href="">
+                    <img src="./assets/imgen/wspico.png" alt="">
+                </a>
+                <a href="">
+                    <img src="./assets/imgen/youico.png" alt="">
+                </a>
+            </section>
+            <section class="textofo">
+                <h4>copyright©2021 </h4>
+            </section>
 
 
-    </footer>
-
-
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
-
-  </body>
+        </footer>
+    <!-- TERMINA EL FOOTER -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v11.0" nonce="SFneUqp7"></script>
+</body>
 </html>
